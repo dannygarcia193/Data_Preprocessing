@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Featured Project #3</title>
+
+    <!--link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/"-->
+
+    <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+        .blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+      }
+    </style>
+<!--where custom style for css files was-->
+<!--link href = "album.css" rel = "stylesheet"-->
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="">Daniel Garcia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link"  href="">Resume <!--span class="sr-only">(current)--></span></a><!--'active' goes before href to make this blod-->
+            <a class="nav-item nav-link" href="">Blog</a>
+            <a class="nav-item nav-link" href="https://www.facebook.com/danny.garcia.9404">Facebook</a>
+            <!--a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true"--><!--Disabled</a>-->
+          </div>
+        </div>
+      </nav>
+</header>
+
+<main role="main">
+<!--jumbotron is the big box where the main text is(look at website-->)
+  <body>
+       <section class="jumbotron">
+    <div class="container">
+      <h1 class="jumbotron-heading">Data Preprocessing Project</h1>
+      <p class="lead text-muted">Welcome to my website. Feel free to roam around.</p>
+      <p>
+       <a href="mailto: dannygarcia193@gmmail.com" class="btn btn-primary my-2">Email Me</a>
+<!--button-->
+        <!--a href="#" class="btn btn-secondary my-2">Secondary action</a-->
+      </p>
+      <img src =" " height = '250' width = '300'/>
+    </div>
+  <span class="blinking">Am I blinking?</span>
+<h2>Data Preprocessing Project</2>
+<p>E-MAIL: <a href="mailto:dannygarcia193@gmail.com "> dannygarcia193@gmail.com </a></p>
+<p>Date completed: January, 2020</p>
+<h3>Project Name:</h3>
+<p>Analyzing Borrower&rsquo;s Risk of Defaulting</p>
+<h3>Project description:</h3>
+<p>Hello this is my submisssion for the Data Preprocessing Project from Practicum by Yandex's Data Analyst program. You can find more about the Data Analyst by clicking <a href="https://practicum.yandex.com/data-analyst/"> here. </a></p>
+<p>In this project I put to work my analytical thinking as well as my coding, and preprocessing skills. The goal of this <em> hypothetical </em> project is to prepare a report for a bank&rsquo;s loan division. Of special consideration, customer&rsquo;s marital status and number of children were taken into account to determine whether a customer will default on a loan. This <em> hypothetical </em> report was considered when building a credit scoring of a potential customer.</p>
+<hr />
+<h2>Summary of Analysis Business Questions:</h2>
+<ol>
+<li>Is there a relation between having kids and repaying a loan on time? - For the first graph (see figure 1), with the ratio of percentage being roughly a percentage and a half away from each other, it is reasonable to conclude that there is no concrete relationship between having kids and repaying loan in time.</li>
+<li>Is there a relation between marital status and repaying a loan on time? - In the next graph (see figure 2), we can see that among all the marital status variables, surprisingly, those with a widower status are more likely to not be in debt. Individuals with a divorced and married status are also more likely to pay their loans on time. Those under a civil partnership and unmarried marital status, however, seem to have a higher likelihood of not paying of their loan in time. Thus its reasonable to assume that marital status does share a relationship with the timeliness of loan repayment.</li>
+<li>Is there a relation between income level and repaying a loan on time? - Following that, the bar graph (see figure 3), it's surprising to observe that for the most part, the debt ratios for all but the middle income class category remain relatively equal. Based on these mean ratios, it's safe to assume that a weak relationships exist between the timeliness of loan repayment and income class with people in the middle income class paying off their debt at a quicker rate.</li>
+<li>How do different loan purposes affect on-time repayment of the loan? - Lastly, from the result of the last bar graph (see figure 4), the real estate mean ratio value seems to be the most different from the others but not on a large scale. We can only conclude however that a potential positive relationship may exist between people who take out a loan for real estate purposes and their timeliness of repayment.</li>
+</ol>
+<hr />
+<h2>Conclusion</h2>
+<p>After a variety of data preprocessing steps, we were able to condense and transform the four main columns of interest (income class, purpose, children, and marital status) into the appropriate types of variables to be able to answer the business questions. From our analysis, we were able to point out marital status, income class, and loan purpose as having an existing relationship between the timeliness of loan repayment. Individuals taking out loan for real estate purposes on average tend to pay their loan in a timely manner in comparison to those taking out their loans for wedding, car purchasing, and education reasons. In addition, widowers are more likely than any other type of marital status group (married, unmarried, divorced, civil partnership) to pay back their loans on time. Moreover, individuals who identified as being unmarried or in a civil partnership had a higher likelihood of repaying their loan on time in comparison to the other marital status. Lastly, individuals in the middle income class payed off their loans at a higher rate in comparison to the other income classes (high, highest, and low). Special consideration should be given to the aforementioned variables.</p>
+<hr />
+<h2>Figures</h2>
+<p>Figure 1. Child&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Figure 2. Marital Status</p>
+<p><img src="images/Screenshot_100.png?raw=true" width="40%" height="30%" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="images/marital_status.png?raw=true" width="40%" height="30%" /></p>
+<p>Figure 3. Income Class&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Figure 4. Loan Purpose&nbsp;</p>
+<p><img src="images/income_class.png?raw=true" width="40%" height="30%" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="images/loan_purpose.png?raw=true" width="40%" height="30%" /></p>
+<h4>4. Github Project Link To access the repository for this project click <a href="https://github.com/dannygarcia193/Data_Preprocessing/blob/master/Data_Preprocessing.ipynb"> here. </a></h4>
+<p>&nbsp;</p>
+
+<a id="back2Top" title="Back to top" href="#" style="text-align:center'>Back to top</a>
+</body></s<h4>4. Github Project Link To access the repository for this project click <a href="https://github.com/dannygarcia193/Data_Preprocessing/blob/master/Data_Preprocessing.ipynb"> here. </a></h4>
+<p>&copy;</p>
+
+</section>
+</main>
+<footer class="text-muted">
+  <div class="container text-center">
+    <p>
+      <!--a href="#">Back to top</a-->
+      &copy Daniel Garcia 2020
+    </p>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
